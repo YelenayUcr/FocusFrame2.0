@@ -80,12 +80,18 @@ body {
   margin-top: 9px;
   margin-right: 60px;
   flex: 1;
-}
-.navbar-camera-normal {
   display: block;
 }
+
 .navbar-camera-hover {
   display: none;
+  z-index: 10;
+}
+.btn-camera-div:hover .navbar-camera-hover {
+  position: relative;
+  top: -32px;
+  left: 0;
+  display: block;
 }
 .menu-wrap {
   position: fixed;
