@@ -7,16 +7,19 @@
   --dmsans: "DM Sans", sans-serif;
   --linear-gradiant: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
+
 /* Reset css */
 html {
   box-sizing: border-box;
   font-family: var(--dmsans);
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 p,
 h1,
 h2,
@@ -26,29 +29,36 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul,
 ol {
   margin: 0;
   padding: 0;
 }
+
 button {
   cursor: pointer;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 address {
   font-style: normal;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 body {
   background-color: var(--black);
 }
+
 /* 375 Mobile first css alanı */
 
 /* Header */
@@ -77,51 +87,57 @@ body {
 
 /* Reviews */
 .amanda-border {
-      display: none;
+  display: none;
 }
-#reviews{
+
+#reviews {
   width: 100%;
   padding: 50px 0;
 
 }
-.reviews-div{
+
+.reviews-div {
   width: 100%;
-max-width: 375px;
-margin: auto;
+  max-width: 375px;
+  margin: auto;
 
 }
-.reviews-title{
+
+.reviews-title {
   width: 100px;
   height: 32px;
   font-family: DM Sans;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -0.04em;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    margin-bottom: 40px;
-    margin-left: 20px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+  margin-left: 20px;
 }
-.reviews-image{
-display: flex;
+
+.reviews-image {
+  display: flex;
 }
-.person-review .abraham-border{
- max-width: 335px;
-   height: 244px;
-    top: 72px;
-    gap: 0px;
-    border-radius: 12px ;
-    border: 1px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+
+.person-review .abraham-border {
+  max-width: 335px;
+  height: 244px;
+  top: 72px;
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.reviews-h2{
+
+.reviews-h2 {
   max-width: 145px;
-    height: 24px;
-font-family: DM Sans;
+  height: 24px;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -131,10 +147,11 @@ font-family: DM Sans;
   position: relative;
 
 }
-.reviews-h3{
-width: 43px;
+
+.reviews-h3 {
+  width: 43px;
   height: 16px;
-font-family: DM Sans;
+  font-family: DM Sans;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -145,27 +162,30 @@ font-family: DM Sans;
   margin-left: 66px;
   position: relative;
 }
-.reviews-p{
-font-family: DM Sans;
+
+.reviews-p {
+  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.02em;
   text-align: left;
-color: rgba(255, 255, 255, 1);
-font-size: calc(100vw/28);
+  color: rgba(255, 255, 255, 1);
+  font-size: calc(100vw/28);
 
 }
- 
-.abraham-border .stars-image{
-position: absolute;
+
+.abraham-border .stars-image {
+  position: absolute;
   margin-left: 66px;
   margin-top: 10px;
 }
-.abraham-skills{
- position: relative;
- bottom:50px;
+
+.abraham-skills {
+  position: relative;
+  bottom: 50px;
 }
+
 /* Reviews Bitimi */
 
 /* Footer */
@@ -199,7 +219,7 @@ position: absolute;
   /* Sign up Bitimi */
 
   /* Reviews */
-  
+
 
   /* Reviews Bitimi */
 
@@ -242,6 +262,7 @@ position: absolute;
 
   /* Footer Bitimi */
 }
+
 /* Desktop */
 @media screen and (min-width: 1280px) {
   /* Header */
@@ -276,6 +297,7 @@ position: absolute;
 
   /* Footer Bitimi */
 }
+
 /* Desktop - Geniş Ekran Opsiyonel */
 @media screen and (min-width: 1440px) {
   /* Header */
