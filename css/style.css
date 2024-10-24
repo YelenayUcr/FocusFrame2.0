@@ -80,6 +80,24 @@ body {
 /* Reviews Bitimi */
 
 /* Footer */
+/* footer mobile */
+.footer-section {
+  width:100%;
+  color:var(--white);
+  padding: 50px 0; /* diğer section'lar ile araya dikeyde boşluk için */
+}
+.footer-div {
+  width:335px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.footer-group-bc {
+  display:flex;
+  justify-content: space-between;
+  /* b ve c container'larına flex ver */
+}
 
 /* Footer Bitimi */
 
