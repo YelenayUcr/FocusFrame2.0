@@ -107,8 +107,8 @@ margin: auto;
 display: flex;
 }
 .person-review .abraham-border{
-  max-width: 335px;
-    max-height: 244px;
+ max-width: 335px;
+   height: 244px;
     top: 72px;
     gap: 0px;
     border-radius: 12px ;
@@ -153,9 +153,7 @@ font-family: DM Sans;
   letter-spacing: -0.02em;
   text-align: left;
 color: rgba(255, 255, 255, 1);
-display: flex;
-      max-width: 100%;
-      /* Yazıyı kutu içinde tut */
+font-size: calc(100vw/28);
 
 }
  
