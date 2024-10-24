@@ -82,11 +82,13 @@ body {
 #reviews{
   width: 100%;
   padding: 50px 0;
+
 }
 .reviews-div{
   width: 100%;
 max-width: 375px;
 margin: auto;
+
 }
 .reviews-title{
   width: 100px;
@@ -99,22 +101,25 @@ margin: auto;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 .reviews-image{
 display: flex;
 }
 .person-review .abraham-border{
-  width: 335px;
-    height: 244px;
+  max-width: 335px;
+    max-height: 244px;
     top: 72px;
     gap: 0px;
     border-radius: 12px ;
     border: 1px;
     border: 1px solid rgba(255, 255, 255, 0.2);
       padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .reviews-h2{
-  width: 145px;
+  max-width: 145px;
     height: 24px;
 font-family: DM Sans;
   font-size: 20px;
@@ -141,8 +146,6 @@ font-family: DM Sans;
   position: relative;
 }
 .reviews-p{
-width: 295px;
-height: 108px;
 font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
@@ -150,6 +153,9 @@ font-family: DM Sans;
   letter-spacing: -0.02em;
   text-align: left;
 color: rgba(255, 255, 255, 1);
+display: flex;
+      max-width: 100%;
+      /* Yazıyı kutu içinde tut */
 
 }
  
