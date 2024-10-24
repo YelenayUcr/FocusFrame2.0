@@ -76,7 +76,92 @@ body {
 /* Sign up Bitimi */
 
 /* Reviews */
+.amanda-border {
+      display: none;
+}
+#reviews{
+  width: 100%;
+  padding: 50px 0;
+}
+.reviews-div{
+  width: 100%;
+max-width: 375px;
+margin: auto;
+}
+.reviews-title{
+  width: 100px;
+  height: 32px;
+  font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 40px;
+}
+.reviews-image{
+display: flex;
+}
+.person-review .abraham-border{
+  width: 335px;
+    height: 244px;
+    top: 72px;
+    gap: 0px;
+    border-radius: 12px ;
+    border: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 20px;
+}
+.reviews-h2{
+  width: 145px;
+    height: 24px;
+font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 66px;
+  position: relative;
 
+}
+.reviews-h3{
+width: 43px;
+  height: 16px;
+font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin-left: 66px;
+  position: relative;
+}
+.reviews-p{
+width: 295px;
+height: 108px;
+font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+ 
+.abraham-border .stars-image{
+position: absolute;
+  margin-left: 66px;
+  margin-top: 10px;
+}
+.abraham-skills{
+ position: relative;
+ bottom:50px;
+}
 /* Reviews Bitimi */
 
 /* Footer */
@@ -110,6 +195,7 @@ body {
   /* Sign up Bitimi */
 
   /* Reviews */
+  
 
   /* Reviews Bitimi */
 
